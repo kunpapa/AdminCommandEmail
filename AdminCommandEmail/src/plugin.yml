@@ -1,0 +1,10 @@
+name: AdminCommandEmail
+version: 1.0.0-SNAPSHOT
+main: net.deadplayers.admincommandemail.AdminCommandEmail
+authors: [kunpapa]
+softdepend: [MailLibrary]
+commands:
+   admincommandemail:
+      description: Help from this plugin
+      usage: /AdminCommandEmail
+      aliases: [adminmail,ace,admincommand,admince,acemail]

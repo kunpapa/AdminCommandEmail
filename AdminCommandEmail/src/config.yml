@@ -1,0 +1,23 @@
+#server name, for placeholder
+serverName: default
+#list of emails to send a mail with the commands executed
+emailsToSend: myemail@mail.com
+#Body of the email before list
+#Placeholder -> %playerName% and %serverName%
+emailBody: "Commands executed by <b>%playerName%</b> at server <b>%serverName%</b>:<br>"
+#Subject of the email, have the same placeholders
+emailSubject: "Commands of %playerName% at %serverName%"
+#Time in minutes to send the list of commands executed
+timeInMinutes: 60
+#Whitelist of commands not to be listed
+#if the commands start with the string it will not be listed
+whitelistCommands:
+- hub
+- lobby
+- test
+#if this list is not empty, only commands inside the list will be listed, whitelist will be disabled
+blacklistCommands: []
+#store OP commands?
+logOpUsers: true
+#enable metrics?
+metrics: true
